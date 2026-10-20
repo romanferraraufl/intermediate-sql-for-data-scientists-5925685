@@ -1,5 +1,6 @@
 ﻿select
-   cd.department_name, count(*)
+   cd.department_name,
+   count(*)
 from
    data_sci.employees e
 join
